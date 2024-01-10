@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: object_detection_yolov5
+Version: 1.0.0
+Summary: Hand Sign Detection Using YOLOv5
+Author: Mandalor_09
+Author-email: oms42162@gmail.com
+Requires-Dist: gitpython>=3.1.30
+Requires-Dist: matplotlib>=3.3
+Requires-Dist: numpy>=1.22.2
+Requires-Dist: opencv-python>=4.1.1
+Requires-Dist: Pillow>=10.0.1
+Requires-Dist: psutil
+Requires-Dist: PyYAML>=5.3.1
+Requires-Dist: requests>=2.23.0
+Requires-Dist: scipy>=1.4.1
+Requires-Dist: thop>=0.1.1
+Requires-Dist: torch>=1.8.0
+Requires-Dist: torchvision>=0.9.0
+Requires-Dist: tqdm>=4.64.0
+Requires-Dist: ultralytics>=8.0.23
+Requires-Dist: pandas>=1.1.4
+Requires-Dist: seaborn>=0.11.0
+Requires-Dist: setuptools>=65.5.1
+Requires-Dist: roboflow
+Requires-Dist: python_dotenv
+Requires-Dist: flask
+Requires-Dist: Flask_Cors

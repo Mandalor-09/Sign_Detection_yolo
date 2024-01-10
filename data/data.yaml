@@ -1,0 +1,17 @@
+names:
+- Hello
+- I love u
+- 'No'
+- Please
+- Thank You
+- 'Yes'
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: sign-detection-78n0m
+  url: https://universe.roboflow.com/exploring-roboflow-and-yolo/sign-detection-78n0m/dataset/1
+  version: 1
+  workspace: exploring-roboflow-and-yolo
+test: ../test/images
+train: /config/workspace/data/train/images
+val: /config/workspace/data/valid/images
