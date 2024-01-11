@@ -5,7 +5,7 @@ def decodeImage(imgstring, fileName):
     with open("./data/" + fileName, 'wb') as f:
         f.write(imgdata)
         f.close()
-        return f'./data/{fileName}'
+    return f'./data/{fileName}'
 
 
 def encodeImageIntoBase64(croppedImagePath):

@@ -38,10 +38,8 @@ def predict_route():
             raise ValueError("Image data not found in the request")
 
         file_path = decodeImage(image, clApp.filename)
-        print(file_path,'<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<>>>>>>>>>')
-        best = os.path.abspath("yolov5/runs/train/yolov5s_results/weights/best.pt")
-        result_image_path = run_detection(f"{best}", f"{file_path}")
-        print(result_image_path,'<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<>>>>>>>>>')
+
+        result_image_path = run_detection("yolov5/runs/train/yolov5s_results/weights/best.pt", f"{file_path}")
 
         opencodedbase64 = encodeImageIntoBase64(result_image_path)
         result = {"image": opencodedbase64.decode('utf-8')}
