@@ -13,5 +13,5 @@ roboflow:
   version: 1
   workspace: exploring-roboflow-and-yolo
 test: ../test/images
-train: /config/workspace/data/train/images
-val: /config/workspace/data/valid/images
+train: C:\Users\DELL\OneDrive\Desktop\Sign_Detection_yolo\data/train/images
+val: C:\Users\DELL\OneDrive\Desktop\Sign_Detection_yolo\data/valid/images

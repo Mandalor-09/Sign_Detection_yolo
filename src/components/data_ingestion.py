@@ -7,7 +7,7 @@ import os
 
 @dataclass
 class DataIngestion:
-    folder: str = os.path.abspath('/config/workspace/data')
+    folder: str = os.path.abspath('data')
 
     def __post_init__(self):
         os.makedirs(self.folder, exist_ok=True)
