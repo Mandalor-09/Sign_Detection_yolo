@@ -113,3 +113,11 @@ For more information on YOLOv5, Roboflow, and Flask, refer to their respective d
 YOLOv5 GitHub
 Roboflow Documentation
 Flask Documentation
+
+## Steps to Follow 
+1) git clone https://github.com/Mandalor-09/Sign_Detection_yolo.git
+2) cd /Sign_Detection_yolo/
+3) git clone https://github.com/ultralytics/yolov5
+4) pip install -r requirements.txt
+5) python src/components/model_trainer.py
+6) python app.py
