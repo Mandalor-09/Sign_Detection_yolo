@@ -24,7 +24,7 @@ class TrainModel:
 
             # Adjusting paths to absolute paths 
             # --save-period 5
-            training_command = f"python yolov5/train.py --img 640 --batch 16 --epochs 10 --data {os.path.abspath(data_yaml_path)} --cfg {os.path.abspath(trainer_yaml_path)} --weights yolov5s.pt --name yolov5s_results --cache"
+            training_command = f"python yolov5/train.py --img 640 --batch 16 --epochs 51 --data {os.path.abspath(data_yaml_path)} --cfg {os.path.abspath(trainer_yaml_path)} --weights yolov5s.pt --name yolov5s_results --cache"
             logging.info(training_command)
 
             # Check if the training command was successful
