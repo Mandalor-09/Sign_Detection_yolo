@@ -14,7 +14,7 @@ class DataIngestion:
 
     def dataset_download(self):
         try:
-            rf = Roboflow(api_key="O8rqZVXfesJftYQH436P")
+            rf = Roboflow(api_key=" ")
             project = rf.workspace("exploring-roboflow-and-yolo").project("sign-detection-78n0m") 
             dataset = project.version(1).download("yolov5", location=self.folder)
             
