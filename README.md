@@ -121,3 +121,6 @@ Flask Documentation
 4) pip install -r requirements.txt
 5) python src/components/model_trainer.py
 6) python app.py
+
+[![Watch the video](https://github.com/Mandalor-09/Sign_Detection_yolo/blob/main/sign_detection.png)](https://github.com/Mandalor-09/Sign_Detection_yolo/blob/main/working.mp4)
+
